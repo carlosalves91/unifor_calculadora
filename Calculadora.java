@@ -29,4 +29,10 @@ public class Calculadora {
     public double exponenciacao(double numeroA, double numeroB){
         return (double) Math.pow(numeroA, numeroB);
     }
+    public double raiz(double numeroA) {
+        if (numeroA >= 0) return sqrt(numeroA);
+        else {
+            throw new IllegalArgumentException("O numeroB nao pode ser menor do que 0!");
+        }
+    }
 }
