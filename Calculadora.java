@@ -25,4 +25,8 @@ public class Calculadora {
     public double piso(double numeroA){
         return floor(numeroA);
     }
+
+    public double exponenciacao(double numeroA, double numeroB){
+        return (double) Math.pow(numeroA, numeroB);
+    }
 }
