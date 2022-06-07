@@ -8,4 +8,11 @@ public class Calculadora {
 		return numeroA - numeroB;
 	}
 
+	public static double multiplicacao(double numeroA, double numeroB) {
+        return numeroA * numeroB;
+    }
+
+    public static double divisao(double numeroA, double numeroB) {
+        return numeroA / numeroB;
+    }
 }
