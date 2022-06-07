@@ -1,3 +1,5 @@
+import static java.lang.Math.*;
+
 public class Calculadora {
 
 	public double soma(double numeroA, double numeroB) {
@@ -14,5 +16,13 @@ public class Calculadora {
 
     public static double divisao(double numeroA, double numeroB) {
         return numeroA / numeroB;
+    }
+
+	public double teto(double numeroA) {
+        return ceil(numeroA);
+    }
+
+    public double piso(double numeroA){
+        return floor(numeroA);
     }
 }
