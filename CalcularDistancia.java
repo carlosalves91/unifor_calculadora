@@ -5,7 +5,8 @@ public class CalcularDistancia {
     public double somandoDistancia(){
         Calculadora calculadora = new Calculadora();
 
-        double soma = Calculadora.soma (quantiaAB, quantiaBC);
+        double soma = Calculadora.soma(distanciaAB, distanciaBC);
+        return soma; 
 
     }
 }
