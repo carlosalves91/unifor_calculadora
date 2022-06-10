@@ -8,6 +8,7 @@ public class CalcularDistancia {
         java.util.Scanner scanner = new Scanner(System.in);
 
         double distanciaAB;
+        
         double distanciaBC; 
 
         System.out.println("Por favor digite a distancia entre os pontos A e B em metros.");
