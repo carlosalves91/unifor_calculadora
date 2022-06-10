@@ -2,7 +2,7 @@ import static java.lang.Math.*;
 
 public class Calculadora {
 
-	public double soma(double numeroA, double numeroB) {
+	public static double soma(double numeroA, double numeroB) {
 		return numeroA + numeroB;
 	}
 	
