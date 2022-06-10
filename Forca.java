@@ -1,5 +1,3 @@
-package util;
-
 public class Forca {
     private double massa = 20;
     private double aceleracao = 5;
